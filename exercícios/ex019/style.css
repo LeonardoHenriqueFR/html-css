@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: hsl(120, 73%, 75%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    font: normal 3em Arial;
+    text-align: center;
+    background-color: black;
+    color: lightslategray
+}
+
+#t1{
+    color: green;
+}
+h1#t2{
+    color: blueviolet;
+}
+
+h1{
+    color: hsl(0, 100%, 50%);
+}
+
+h2{
+    color: hsl(240, 100%, 27%);
+}
+
+.basico{
+    color: #fff;
+}
+
+.inter{
+    color: darkgoldenrod;
+}
+
+.avan{
+    color: darkred;
+}

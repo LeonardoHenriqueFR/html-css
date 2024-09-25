@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d1{
+            cursor: pointer;
+        }
+        .d1:hover{
+            color: crimson;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: black;
+            color: #fff;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+
+    <p>Passe o mouse sobre o texto abaixo</p>
+
+    <div class="d1">
+        Passe o mause aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+
+    <a href="pseudocalsse.html"><p>Clique aqui para voltar para pagina principal</p></a>
+    <p>Fim do exemplo</p>
+</body>
+</html>
